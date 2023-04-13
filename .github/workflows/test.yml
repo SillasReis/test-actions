@@ -1,0 +1,15 @@
+name: Teste Actions
+
+on:
+  workflow_dispatch:
+
+env:
+  SHA_TEST: ${{ github.sha }}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Imprimir SHA
+      run: echo "$SHA_TEST"
