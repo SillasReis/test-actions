@@ -1,4 +1,4 @@
-name: Teste Actions
+name: Homologation Deploy
 
 on:
   workflow_dispatch:
