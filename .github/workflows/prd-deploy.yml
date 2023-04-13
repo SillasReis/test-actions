@@ -12,4 +12,4 @@ jobs:
     
     steps:
     - name: Imprimir SHA
-      run: echo "$SHA_TEST"
+      run: echo "$SHA_TEST && echo PROD"
